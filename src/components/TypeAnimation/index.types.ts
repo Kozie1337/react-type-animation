@@ -29,6 +29,7 @@ export type GranularSpeed = {
 export type StringSplitter = (text: string) => ReadonlyArray<string>;
 
 export type Wrapper =
+  | 'code'
   | 'p'
   | 'div'
   | 'span'
